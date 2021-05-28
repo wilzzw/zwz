@@ -1,0 +1,315 @@
+* FORCE FIELD PARAMETER FILE.
+* 
+ATOMS
+MASS        -1 H4gx           1.008
+MASS        -1 Cgx         12.01
+MASS        -1 CCgx           12.01
+MASS        -1 NAgx         14.0067
+MASS        -1 CAgx           12.01
+MASS        -1 Ogx           16.0
+MASS        -1 CDgx           12.01
+MASS        -1 HC33gx         1.008
+MASS        -1 Ngx        14.0067
+MASS        -1 HNgx           1.008
+MASS        -1 HOgx           1.008
+MASS        -1 HAgx           1.008
+MASS        -1 OHPgx           16.0
+MASS        -1 C30gx          12.01
+MASS        -1 C33gx          12.01
+MASS        -1 C330gx  12.010000
+MASS        -1 CA0gx  12.010000
+MASS        -1 CA1gx  12.010000
+MASS        -1 C331gx  12.010000
+MASS        -1 CA2gx  12.010000
+
+BONDS
+Cgx  Ogx   648.0000 1.2140
+CAgx    HAgx    344.3000 1.0870
+CAgx    OHPgx   386.1000 1.3620
+OHPgx   HOgx    369.6000 0.9740
+Ngx   Cgx  478.2000 1.3450
+NAgx    HNgx    406.6000 1.0110
+CCgx    CDgx    504.0000 1.3710
+CAgx    CAgx    478.4000 1.3870
+NAgx    CAgx    470.3000 1.3500
+CDgx    H4gx    350.1000 1.0830
+CDgx    NAgx    438.8000 1.3710
+CAgx    Ngx   372.3000 1.4220
+C30gx   C33gx   303.1000 1.5350
+CAgx    Cgx  349.7000 1.4870
+C33gx   HC33gx  337.3000 1.0920
+Ngx   HNgx    410.2000 1.0090
+CCgx    Cgx  377.4000 1.4620
+C30gx   CAgx    323.5000 1.5130
+
+HT_W   HT_W      0.000     1.5139 ! FROM TIPS3P GEOMETRY (FOR SHAKE/W PARAM)
+OT_W   HT_W    450.000     0.9572 ! FROM TIPS3P GEOM
+C330gx C30gx       303.100   1.535
+C330gx HC33gx      337.300   1.092
+CAgx      CA0gx   478.400   1.387
+CA0gx HAgx        344.300   1.087
+C30gx     CA1gx   323.500   1.513
+CA1gx CA0gx   478.400   1.387
+CA1gx CAgx        478.400   1.387
+C30gx     C331gx   303.100   1.535
+C331gx HC33gx      337.300   1.092
+CA0gx CA2gx   478.400   1.387
+CA2gx CAgx        478.400   1.387
+CA2gx C30gx       323.500   1.513
+
+ANGLES
+Cgx  CCgx    CDgx    65.2300 121.5100
+Ngx   Cgx  Ogx   75.8300 122.0300
+Ogx   Cgx  CCgx    68.9100 125.7100
+CCgx    CDgx    NAgx    72.9100 109.4200
+CCgx    CDgx    H4gx    47.1900 129.1100
+Cgx  CCgx    Cgx  63.4200 121.1600
+C30gx   CAgx    CAgx    63.8400 120.6300
+CAgx    CAgx    HAgx    48.4600 120.0100
+CAgx    Ngx   Cgx  64.2900 123.7100
+CDgx    NAgx    CAgx    68.4600 113.1500
+C33gx   C30gx   CAgx    63.2500 112.0900
+C30gx   C33gx   HC33gx  46.3700 110.0500
+CAgx    C30gx   C33gx   63.2500 112.0900
+CAgx    CAgx    OHPgx   69.8500 119.9400
+Cgx  Ngx   HNgx    49.2100 118.4600
+CDgx    CCgx    Cgx  65.2300 121.5100
+CAgx    CAgx    C30gx   63.8400 120.6300
+HC33gx  C33gx   HC33gx  39.4300 108.3500
+NAgx    CDgx    H4gx    50.2200 119.6600
+CAgx    Cgx  Ogx   68.6700 123.4400
+CDgx    NAgx    HNgx    47.0700 125.2200
+CAgx    OHPgx   HOgx    48.8500 109.4700
+CAgx    CAgx    CAgx    67.1800 119.9700
+NAgx    CAgx    CAgx    70.2100 118.3400
+HNgx    NAgx    CAgx    47.6300 125.5900
+CCgx    Cgx  Ogx   68.9100 125.7100
+C33gx   C30gx   C33gx   63.2100 110.6300
+Ngx   Cgx  CCgx    70.1900 111.8600
+CAgx    CAgx    Cgx  64.6400 120.1400
+CCgx    Cgx  CAgx    64.3700 115.5700
+CAgx    CAgx    Ngx   67.9700 119.8900
+CAgx    Ngx   HNgx    47.3600 115.9400
+
+HT_W   OT_W   HT_W     55.000   104.5200 ! TIP3P GEOMETRY
+C330gx C30gx     C33gx        63.210      110.630
+C330gx C30gx     CAgx         63.250      112.090
+C30gx     C330gx HC33gx       46.370      110.050
+C30gx     CAgx      CA0gx    63.840      120.630
+CAgx      CA0gx CAgx         67.180      119.970
+CAgx      CA0gx HAgx         48.460      120.010
+CA0gx CAgx      CAgx         67.180      119.970
+HC33gx    C330gx HC33gx       39.430      108.350
+C330gx C30gx     CA1gx    63.250      112.090
+C30gx     CA1gx CA0gx    63.840      120.630
+C30gx     CA1gx CAgx         63.840      120.630
+C33gx     C30gx     CA1gx    63.250      112.090
+CA1gx CA0gx CAgx         67.180      119.970
+CA1gx CA0gx HAgx         48.460      120.010
+CA1gx CAgx      CAgx         67.180      119.970
+CA1gx CAgx      Ngx        67.970      119.890
+CA0gx CA1gx CAgx         67.180      119.970
+CAgx      C30gx     C331gx    63.250      112.090
+C30gx     C331gx HC33gx       46.370      110.050
+C331gx C30gx     C33gx        63.210      110.630
+HC33gx    C331gx HC33gx       39.430      108.350
+CA1gx CA0gx CA2gx    67.180      119.970
+CA0gx CA2gx CAgx         67.180      119.970
+CA0gx CA2gx C30gx        63.840      120.630
+CA2gx CA0gx HAgx         48.460      120.010
+CA2gx CAgx      CAgx         67.180      119.970
+CA2gx CAgx      OHPgx        69.850      119.940
+CA2gx C30gx     C331gx    63.250      112.090
+CA2gx C30gx     C33gx        63.250      112.090
+CAgx      CA2gx C30gx        63.840      120.630
+
+DIHEDRALS
+X      C33gx   C30gx   X      0.1560 3.000 0.0000
+X      Cgx  Ngx   X      2.5000 2.000 180.0000
+CAgx    CAgx    CAgx    HAgx    3.6250 2.000 180.0000
+C33gx   C30gx   CAgx    CAgx    0.0000 2.000 0.0000
+HAgx    CAgx    CAgx    Cgx  3.6250 2.000 180.0000
+Cgx  CCgx    CDgx    NAgx    4.0000 2.000 180.0000
+NAgx    CAgx    CAgx    Cgx  3.6250 2.000 180.0000
+X      C33gx   CAgx    X      0.0000 2.000 0.0000
+CAgx      Ngx     Cgx    CCgx         1.701474638167003         1     180.0
+CAgx      Ngx     Cgx    CCgx         2.308696294605999         2     180.0
+CAgx      Ngx     Cgx    CCgx         0.005197621188002         3     180.0
+CAgx      Ngx     Cgx    CCgx         0.190824224031001         4     180.0
+CAgx      Ngx     Cgx    CCgx         0.048080061734002         6     180.0
+HAgx    CAgx    CAgx    Ngx   3.6250 2.000 180.0000
+Ogx   Cgx  CCgx    Cgx  2.8750 2.000 180.0000
+CAgx    CAgx    CAgx    Ngx   3.6250 2.000 180.0000
+Cgx  CCgx    Cgx  CAgx    2.8750 2.000 180.0000
+HNgx    Ngx   Cgx  CCgx    2.5000 2.000 180.0000
+C30gx   CAgx    CAgx    HAgx    3.6250 2.000 180.0000
+HC33gx  C33gx   C30gx   C33gx   0.1600 3.000 0.0000
+CAgx    CAgx    CAgx    Cgx  3.6250 2.000 180.0000
+X      CAgx    Ngx   X      0.4500 2.000 180.0000
+X      CAgx    OHPgx   X      0.9000 2.000 180.0000
+CAgx    Ngx   Cgx  Ogx   2.5000 2.000 180.0000
+CAgx    CAgx    CAgx    CAgx    3.6250 2.000 180.0000
+X      CDgx    NAgx    X      1.7000 2.000 180.0000
+X      C30gx   C30gx   X      0.1560 3.000 0.0000
+NAgx    CAgx    CAgx    CAgx    3.6250 2.000 180.0000
+H4gx    CDgx    NAgx    HNgx    1.7000 2.000 180.0000
+X      CAgx    NAgx    X      0.3000 2.000 180.0000
+CCgx    CDgx    NAgx    HNgx    1.7000 2.000 180.0000
+CAgx    CAgx    Ngx   Cgx  0.4500 2.000 180.0000
+OHPgx   CAgx    CAgx    HAgx    3.6250 2.000 180.0000
+Ngx   Cgx  CCgx    Cgx  2.8750 2.000 180.0000
+X      CCgx    CDgx    X      4.0000 2.000 180.0000
+Ngx     Cgx    CCgx      CDgx         0.127384064365998         1     180.0
+Ngx     Cgx    CCgx      CDgx         2.567509796686027         2       0.0
+Ngx     Cgx    CCgx      CDgx         1.201812871178978         3       0.0
+Ngx     Cgx    CCgx      CDgx         0.329665204471001         4     180.0
+Ngx     Cgx    CCgx      CDgx         0.331297501703989         6       0.0
+CAgx    CAgx    OHPgx   HOgx    0.9000 2.000 180.0000
+CAgx    CAgx    Cgx  Ogx   3.6250 2.000 180.0000
+CAgx    CAgx    Ngx   HNgx    0.4500 2.000 180.0000
+X      Cgx  CAgx    X      3.6250 2.000 180.0000
+X      Cgx  CCgx    X      2.8750 2.000 180.0000
+HNgx    NAgx    CAgx    CAgx    0.3000 2.000 180.0000
+CDgx    CCgx    Cgx  CAgx    2.8750 2.000 180.0000
+CDgx    NAgx    CAgx    CAgx    0.3000 2.000 180.0000
+Ogx   Cgx  CCgx    CDgx    2.8750 2.000 180.0000
+X      C33gx   C33gx   X      0.1560 3.000 0.0000
+Cgx  CCgx    CDgx    H4gx    4.0000 2.000 180.0000
+HC33gx  C33gx   C30gx   CAgx    0.1560 3.000 0.0000
+X      CAgx    CAgx    X      3.6250 2.000 180.0000
+HNgx    Ngx   Cgx  Ogx   2.5000 2.000 180.0000
+HNgx    Ngx   Cgx  Ogx   2.0000 1.000 0.0000
+CCgx    CDgx    NAgx    CAgx    1.7000 2.000 180.0000
+C30gx   CAgx    CAgx    Ngx   3.6250 2.000 180.0000
+C30gx   CAgx    CAgx    OHPgx   3.6250 2.000 180.0000
+C30gx   CAgx    CAgx    CAgx    3.6250 2.000 180.0000
+CAgx    CAgx    Cgx  CCgx    3.6250 2.000 180.0000
+X      C30gx   CAgx    X      0.0000 2.000 0.0000
+H4gx    CDgx    NAgx    CAgx    1.7000 2.000 180.0000
+HAgx    CAgx    CAgx    HAgx    3.6250 2.000 180.0000
+NAgx    CAgx    CAgx    HAgx    3.6250 2.000 180.0000
+CAgx    CAgx    CAgx    OHPgx   3.6250 2.000 180.0000
+C330gx C30gx     C33gx     HC33gx     0.160000000000000   3       0.0
+C330gx C30gx     CAgx      CA0gx  0.000679765634000   1       0.0
+C330gx C30gx     CAgx      CA0gx  0.018303348689996   2       0.0
+C330gx C30gx     CAgx      CA0gx  0.382716775559000   3     180.0
+C330gx C30gx     CAgx      CA0gx  0.001612433942998   4     180.0
+C330gx C30gx     CAgx      CA0gx  0.118466561855991   6       0.0
+C330gx C30gx     CAgx      CAgx       0.000000000000000   2       0.0
+C30gx     CAgx      CA0gx CAgx       3.625000000000000   2     180.0
+C30gx     CAgx      CA0gx HAgx       3.625000000000000   2     180.0
+C33gx     C30gx     C330gx HC33gx     0.160000000000000   3       0.0
+C33gx     C30gx     CAgx      CA0gx  0.000000000000000   2       0.0
+CAgx      C30gx     C330gx HC33gx     0.156000000000000   3       0.0
+CAgx      CA0gx CAgx      CAgx       3.625000000000000   2     180.0
+CA0gx CAgx      CAgx      CAgx       3.625000000000000   2     180.0
+CA0gx CAgx      CAgx      Ngx      3.625000000000000   2     180.0
+CA0gx CAgx      CAgx      OHPgx      3.625000000000000   2     180.0
+CAgx      CAgx      CA0gx HAgx       3.625000000000000   2     180.0
+C330gx C30gx     CA1gx CA0gx  0.000679765634000   1       0.0
+C330gx C30gx     CA1gx CA0gx  0.018303348689996   2       0.0
+C330gx C30gx     CA1gx CA0gx  0.382716775559000   3     180.0
+C330gx C30gx     CA1gx CA0gx  0.001612433942998   4     180.0
+C330gx C30gx     CA1gx CA0gx  0.118466561855991   6       0.0
+C330gx C30gx     CA1gx CAgx       0.000000000000000   2       0.0
+C30gx     CA1gx CA0gx CAgx       3.625000000000000   2     180.0
+C30gx     CA1gx CA0gx HAgx       3.625000000000000   2     180.0
+C30gx     CA1gx CAgx      CAgx       3.625000000000000   2     180.0
+C30gx     CA1gx CAgx      Ngx      3.625000000000000   2     180.0
+C33gx     C30gx     CA1gx CA0gx  0.000000000000000   2       0.0
+C33gx     C30gx     CA1gx CAgx       0.000000000000000   2       0.0
+CA1gx C30gx     C330gx HC33gx     0.156000000000000   3       0.0
+CA1gx C30gx     C33gx     HC33gx     0.156000000000000   3       0.0
+CA1gx CA0gx CAgx      CAgx       3.625000000000000   2     180.0
+CA1gx CA0gx CAgx      C30gx      3.625000000000000   2     180.0
+CA1gx CAgx      CAgx      CAgx       3.625000000000000   2     180.0
+CA1gx CAgx      CAgx      HAgx       3.625000000000000   2     180.0
+CA1gx CAgx      Ngx     Cgx     4.012141804488006   1       0.0
+CA1gx CAgx      Ngx     Cgx     0.837056351392991   2       0.0
+CA1gx CAgx      Ngx     Cgx     1.625979362935005   3       0.0
+CA1gx CAgx      Ngx     Cgx     0.373661606945999   4     180.0
+CA1gx CAgx      Ngx     Cgx     0.361424361798990   6     180.0
+CA1gx CAgx      Ngx     HNgx       0.450000000000000   2     180.0
+CA0gx CA1gx CAgx      CAgx       3.625000000000000   2     180.0
+CA0gx CA1gx CAgx      Ngx      3.625000000000000   2     180.0
+CAgx      CA0gx CA1gx CAgx       3.625000000000000   2     180.0
+CAgx      CA1gx CA0gx HAgx       3.625000000000000   2     180.0
+CA0gx CAgx      C30gx     C331gx  0.008423229279999   1     180.0
+CA0gx CAgx      C30gx     C331gx  0.008057502084998   2       0.0
+CA0gx CAgx      C30gx     C331gx  0.050931607504996   3     180.0
+CA0gx CAgx      C30gx     C331gx  0.006472144890998   4     180.0
+CA0gx CAgx      C30gx     C331gx  0.099273228113998   6     180.0
+CAgx      C30gx     C331gx HC33gx     0.156000000000000   3       0.0
+CAgx      CAgx      C30gx     C331gx  0.000000000000000   2       0.0
+C331gx C30gx     C33gx     HC33gx     0.160000000000000   3       0.0
+C33gx     C30gx     C331gx HC33gx     0.160000000000000   3       0.0
+C30gx     CA1gx CA0gx CA2gx  3.625000000000000   2     180.0
+CA1gx CA0gx CA2gx CAgx       3.625000000000000   2     180.0
+CA1gx CA0gx CA2gx C30gx      3.625000000000000   2     180.0
+CA0gx CA2gx CAgx      CAgx       3.625000000000000   2     180.0
+CA0gx CA2gx CAgx      OHPgx      3.625000000000000   2     180.0
+CA0gx CA2gx C30gx     C331gx  0.008423229279999   1     180.0
+CA0gx CA2gx C30gx     C331gx  0.008057502084998   2       0.0
+CA0gx CA2gx C30gx     C331gx  0.050931607504996   3     180.0
+CA0gx CA2gx C30gx     C331gx  0.006472144890998   4     180.0
+CA0gx CA2gx C30gx     C331gx  0.099273228113998   6     180.0
+CA0gx CA2gx C30gx     C33gx      0.000000000000000   2       0.0
+CA2gx CA0gx CA1gx CAgx       3.625000000000000   2     180.0
+CA2gx CAgx      CAgx      CAgx       3.625000000000000   2     180.0
+CA2gx CAgx      CAgx      HAgx       3.625000000000000   2     180.0
+CA2gx CAgx      OHPgx     HOgx       2.153161982380996   1       0.0
+CA2gx CAgx      OHPgx     HOgx       0.429879525514003   2     180.0
+CA2gx CAgx      OHPgx     HOgx       0.141440513762003   3       0.0
+CA2gx CAgx      OHPgx     HOgx       0.024837582068006   4     180.0
+CA2gx CAgx      OHPgx     HOgx       0.007144088890003   6       0.0
+CA2gx C30gx     C331gx HC33gx     0.156000000000000   3       0.0
+CA2gx C30gx     C33gx     HC33gx     0.156000000000000   3       0.0
+CAgx      CA2gx CA0gx HAgx       3.625000000000000   2     180.0
+CAgx      CA2gx C30gx     C331gx  0.000000000000000   2       0.0
+CAgx      CA2gx C30gx     C33gx      0.000000000000000   2       0.0
+CAgx      CAgx      CA2gx C30gx      3.625000000000000   2     180.0
+OHPgx     CAgx      CA2gx C30gx      3.625000000000000   2     180.0
+C30gx     CA2gx CA0gx HAgx       3.625000000000000   2     180.0
+
+IMPROPERS
+CAgx    CAgx    CAgx    Ngx   1.1000 2.000 180.0000
+Cgx  Cgx  CCgx    CDgx    1.1000 2.000 180.0000
+CAgx    CCgx    Cgx  Ogx   10.5000 2.000 180.0000
+Cgx  CAgx    CAgx    CAgx    1.1000 2.000 180.0000
+X      X      Ngx   HNgx    1.1000 2.000 180.0000
+X      X      NAgx    HNgx    1.1000 2.000 180.0000
+CAgx    CAgx    CAgx    NAgx    1.1000 2.000 180.0000
+CAgx    CAgx    CAgx    HAgx    1.1000 2.000 180.0000
+CCgx    H4gx    CDgx    NAgx    1.1000 2.000 180.0000
+CCgx    Ngx   Cgx  Ogx   10.5000 2.000 180.0000
+C30gx   CAgx    CAgx    CAgx    1.1000 2.000 180.0000
+CAgx    CDgx    NAgx    HNgx    1.1000 2.000 180.0000
+X      X      Cgx  Ogx   10.5000 2.000 180.0000
+Cgx  CAgx    Ngx   HNgx    1.1000 2.000 180.0000
+CAgx    CAgx    CAgx    OHPgx   1.1000 2.000 180.0000
+X      X      CAgx    HAgx    1.1000 2.000 180.0000
+
+NONBONDED  E14FAC  1.000000
+!               EMINgxRMIN/2        EMIN/2   RMIN(FOR 1-4'S)
+!           (KCAL/MOL)  (A)
+H4gx    0.0000 -0.0191 1.3601 0.0000 -0.0096 1.3601
+Cgx  0.0000 -0.0779 1.9023 0.0000 -0.0389 1.9023
+CCgx    0.0000 -0.0860 1.9080 0.0000 -0.0430 1.9080
+NAgx    0.0000 -0.1096 1.8208 0.0000 -0.0548 1.8208
+CAgx    0.0000 -0.0873 1.9080 0.0000 -0.0437 1.9080
+Ogx   0.0000 -0.1987 1.6266 0.0000 -0.0993 1.6266
+CDgx    0.0000 -0.0860 1.9080 0.0000 -0.0430 1.9080
+HC33gx  0.0000 -0.0108 1.4720 0.0000 -0.0054 1.4720
+Ngx   0.0000 -0.1700 1.8240 0.0000 -0.0850 1.8240
+HNgx    0.0000 -0.0103 0.5990 0.0000 -0.0051 0.5990
+HOgx    0.0000 -0.0000 0.0000 0.0000 -0.0000 0.0000
+HAgx    0.0000 -0.0167 1.4588 0.0000 -0.0084 1.4588
+OHPgx   0.0000 -0.1961 1.8321 0.0000 -0.0980 1.8321
+C30gx   0.0000 -0.0248 1.8913 0.0000 -0.0124 1.8913
+C33gx   0.0000 -0.1367 1.9063 0.0000 -0.0683 1.9063
+
+C330gx   0.00   -0.1367    1.9063      0.00   -0.0683    1.9063
+CA0gx   0.00   -0.0873    1.9080      0.00   -0.0437    1.9080
+CA1gx   0.00   -0.0873    1.9080      0.00   -0.0437    1.9080
+C331gx   0.00   -0.1367    1.9063      0.00   -0.0683    1.9063
+CA2gx   0.00   -0.0873    1.9080      0.00   -0.0437    1.9080
